@@ -1,0 +1,18 @@
+table, tr, td, th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    border-spacing: 10px;
+}
+
+th {
+    background-color: aqua;
+}
+
+td {
+    background-color: rgb(0, 153, 255);
+}
+
+#red {
+    background-color: rgba(255, 0, 0, 0.646);
+}

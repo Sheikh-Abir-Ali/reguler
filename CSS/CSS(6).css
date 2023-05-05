@@ -1,0 +1,19 @@
+h2 {
+    color: blueviolet;
+}
+
+.cbrown {
+    color: brown;
+}
+
+span.cb, em.cb {
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: solid;
+    color: black;
+}
