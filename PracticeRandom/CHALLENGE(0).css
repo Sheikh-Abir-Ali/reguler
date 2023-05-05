@@ -1,0 +1,54 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(144, 253, 34);
+    padding: 5px;
+}
+
+.formal {
+    background-color: greenyellow;
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#contract {
+    border: 2px solid greenyellow;
+}
+#contract, h1, h5 {
+    background-color: greenyellow;
+}
+
+#user, p {
+    background-color: rgb(164, 236, 55);
+}
+
+input {
+    font-size: large;
+    margin: 4px;
+    display: block;
+    width: 96%;
+    background-color: greenyellow;
+}
+
+input:hover {
+    background-color: yellow;
+    transition: 2s;
+}
+
+select {
+    background-color: greenyellow;
+    font-size: medium;
+}
+
+option {
+    background-color: yellow;
+}
+
+#submit {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}

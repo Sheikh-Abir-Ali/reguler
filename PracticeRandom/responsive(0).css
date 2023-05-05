@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+}
+
+p {
+    display: block;
+    /* margin-left: 50%; */
+    /* margin-right: 50%; */
+    margin-top: 10%;
+    font-size: xx-large;
+    border: 2px solid black;
+    background-color: black;
+}
+
+/* p:hover {
+    background-color: yellow;
+    transition: 2s;
+} */
+
+
+@media (0px <= width <= 640px) {
+    #sm{
+       background-color: aquamarine;
+   }
+}
+
+@media (641px <= width <= 768px) {
+    #md{
+       background-color: aquamarine;
+   }
+}
+
+@media (767px <= width <= 1024px) {
+    #lg{
+       background-color: aquamarine;
+   }
+}
+
+@media (1025px <= width <= 1280px) {
+    #xl{
+       background-color: aquamarine;
+   }
+}
+
+@media (min-width: 1281px) {
+    #xll{
+       background-color: aquamarine;
+   }
+}

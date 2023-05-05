@@ -1,0 +1,33 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #03042c;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.box {
+    border: 2px solid white;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+#button, button {
+    display: block;
+    color: #03042c;
+    background-color: cyan;
+    font-size: large;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    background-color: yellow;
+    transition: 1s;
+    color:black
+}

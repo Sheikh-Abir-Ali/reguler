@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .image-container {
+  position: relative;
+}
+
+.secondary-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.main-image:hover ~ .secondary-image {
+  opacity: 0.5;
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="image-container">
+      <img src="https://ithemes.com/wp-content/uploads/2019/08/What-is-Your-Website-Design-Process-Blog-Post-Feature-Image-36119-01-1024x537.png" class="main-image" />
+      <img src="https://uploads.sitepoint.com/wp-content/uploads/jquery4u/2010/12/animate-on-hover.png" class="secondary-image" />
+      <!-- <img src="https://ithemes.com/wp-content/uploads/2019/08/What-is-Your-Website-Design-Process-Blog-Post-Feature-Image-36119-01-1024x537.png" class="secondary-image" /> -->
+    </div>
+  </body>
+</html>
