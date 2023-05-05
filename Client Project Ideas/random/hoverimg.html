@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Image</title>
+
+    <style>
+        * {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			margin: 0 auto;
+			padding: 20px;
+			box-sizing: border-box;
+			border: 2px solid #ddd;
+		}
+
+
+        .box {
+			width: 300px;
+			height: 300px;
+			background-color: #f1f1f1;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+            box-sizing: border-box;
+			align-items: center;
+			box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+			margin: 0 auto;
+            transition: 1s;
+            border-radius: 20px;
+		}
+		.box img {
+			max-width: 75%;
+			max-height: 75%;
+			box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            transition: 1s;
+            /* padding: 20px; */
+		}
+
+        .box p {
+			font-size: 1.2em;
+			text-align: center;
+			/* margin-top: 10px; */
+            transition: 1s;
+		}
+
+        .box:hover {
+			height: 400px;
+		}
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div class="box">
+            <img src="img/1.png" alt="Your Image">
+            <p>Sheikh Abir Aii</p>
+        </div>
+
+        <div class="box">
+			<img src="img/2.png" alt="Image 2">
+			<p>Arif Arman Mahi</p>
+		</div>
+		<div class="box">
+			<img src="img/3.png" alt="Image 3">
+			<p>Tahmid Al Mamun</p>
+		</div>
+
+    </section>
+        
+</body>
+</html>
