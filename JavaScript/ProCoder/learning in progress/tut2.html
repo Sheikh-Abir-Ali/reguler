@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        button {
+            border-radius: 20px;
+            color: white;
+            background-color: black;
+            box-shadow: 1px 1px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body id="body">
+    <h1 id="text">Tomake Chai</h1>
+    <button onclick="document.getElementById('text').style.fontFamily='Impact,Charcoal,sans-serif'">Change Font</button>
+    <button onclick="document.body.style.background='black'; document.getElementById('text').style.color='white'">Dark Mode</button>
+    <button onclick="document.body.style.background='white'; document.getElementById('text').style.color='black'">White Mode</button>
+</body>
+</html>
